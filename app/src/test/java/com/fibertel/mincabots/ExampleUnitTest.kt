@@ -1,4 +1,4 @@
-package com.fibertel.mincabotsmobile
+package com.fibertel.mincabots
 
 import org.junit.Test
 

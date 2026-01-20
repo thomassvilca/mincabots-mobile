@@ -1,4 +1,4 @@
-package com.fibertel.mincabotsmobile.ui.theme
+package com.fibertel.mincabots.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
