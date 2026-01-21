@@ -1,6 +1,5 @@
 package com.fibertel.mincabots.ui.theme
 
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
@@ -41,8 +40,8 @@ private val DarkColorScheme = darkColorScheme(
 
 @Composable
 fun MINCABOTSMobileTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
-    dynamicColor: Boolean = false, // 👈 recomendado para respetar maqueta
+    darkTheme: Boolean = false,
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
     val colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme
@@ -53,3 +52,4 @@ fun MINCABOTSMobileTheme(
         content = content
     )
 }
+
